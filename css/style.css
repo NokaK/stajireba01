@@ -73,21 +73,42 @@
 }
 
 .arrow {
-    width: 104px;
-    height: 208px;
+    width: 70%;
+    height: 15%;
     background-color: #fff;
-    opacity: 2 !important;
-    left: 0 !important;
+    left: -40%;
+
+    border-radius: 50%;
+     position: absolute;
+
+}
+.arrow1 {
+  right:-40%;
+     width: 70%;
+    height: 15%;
+    background-color: #fff;
+    border-radius: 50%;
+     position: absolute;
 }
 .smth {
-  
-    height: 41px !important;
-    width: 51px !important;
-    background:url("arrow.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: rotate(180deg);
+   position: relative;
+   width: 200%;
+   left:10%;
+   bottom: 10%;
+
+  z-index: 2;
 
 
   }
+.smth1 {
+   position: relative;
+   width: 200%;
+   right:50%;
+   bottom: 10%;
+
+  z-index: 2;
+
+
+  }
+ 
+ 
