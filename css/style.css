@@ -112,21 +112,9 @@
 color: #fff;
 
  }
- .date h1 {
-float: right;
 
- }
 .date p{
 font-size: 40px;
 color: #fff;
 white-space: nowrap;
-}
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
 }
