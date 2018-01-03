@@ -77,13 +77,13 @@
     height: 15%;
     background-color: #fff;
     left: -40%;
-
     border-radius: 50%;
      position: absolute;
+     overflow-x: 
 
 }
 .arrow1 {
-  right:-40%;
+    right:-40%;
      width: 70%;
     height: 15%;
     background-color: #fff;
@@ -91,25 +91,25 @@
      position: absolute;
 }
 .smth {
-   position: relative;
-   width: 200%;
-   right: :10%;
-   bottom: 10%;
-  z-index: 2;
+    position: relative;
+    width: 30%;
+    right: -25%;
+    bottom: -35%;
+    z-index: 2;
 }
 .smth1 {
-   position: relative;
-   width: 200%;
-   left: -50%;
-   bottom: 10%;
-  z-index: 2;
+    position: relative;
+    width: 30%;
+    left: -25%;
+    bottom: -35%;
+    z-index: 2;
   }
  
  .date {
   position: absolute;
   right: 45px;
   bottom:200px; 
-color: #fff;
+  color: #fff;
 
  }
 
@@ -125,15 +125,20 @@ white-space: nowrap;
     z-index: 2;
 }
 .container h1 {
-   letter-spacing: 5px;
    font-weight: 400;
-   white-space: nowrap;
+     letter-spacing:8px;
+ 
 }
 .common {
   background-color: #EBE8DE;
-  padding: 65px 80px;
+  padding: 15%;
 }
 .common h1 {
   margin-top: 70px!important;
   background-color: #EA9DB3;
+
+}
+.common  img {
+  width: 100%;
+  max-width: 135px;
 }
