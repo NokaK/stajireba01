@@ -35,24 +35,16 @@ $(function(){
 
         });
 
-// $(function(){
+// $(document).ready(function(){
+//   $('#nav-icon1').click(function(){
+//     $('#white').toggleClass('auto1');
+//   });
+// });
 
-//         $('#nav-icon1').click(function() {
-//           var clicks = $(this).data('clicks');
-//           if (clicks) {
-//             closeNav()
-//           } else {
-//              openNav()
-//           }
-//           $(this).data("clicks", !clicks);
-//         });
+ $(document).ready(function(){
+  $('#nav-icon1').click(function(){
+            $("#red").css("z-index","3");
+      });
+        });
 
-//     function openNav() {
-//         document.getElementById("auto1").style.color = "red";
-//     }
 
-//     function closeNav() {
-//         document.getElementById("auto1").style.width = "0%";
-//     }
-
-//         });
