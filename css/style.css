@@ -5,7 +5,7 @@
 
 /* Icon 1 */
 
-#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+#nav-icon1 {
   width: 60px;
   height: 45px;
   position: relative;
@@ -53,6 +53,7 @@
 
 #nav-icon1.open span:nth-child(1) {
   top: 18px;
+  background-color:red;
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -o-transform: rotate(135deg);
@@ -66,11 +67,58 @@
 
 #nav-icon1.open span:nth-child(3) {
   top: 18px;
+  background-color:red;
   -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.7;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    left: 25%;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #818181;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+
+}
+
+
 
 .arrow {
     width: 70%;
@@ -120,9 +168,19 @@ white-space: nowrap;
 }
 
 .auto {
-  top:30px;
-  left: 30px;
+  top:20px;
+  left: 20px;
     z-index: 2;
+    width: 250px;
+}
+
+.auto1  img{
+  position: relative;
+    top: 25%;
+    left: 25%;
+    width: 100%;
+    margin-top: 75px;
+ 
 }
 .container h1 {
    font-weight: 400;
@@ -169,4 +227,21 @@ white-space: nowrap;
 .form-class {
   width: 240px;
 
+}
+
+
+
+
+
+
+
+/*media */
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
