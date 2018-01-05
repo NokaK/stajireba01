@@ -76,6 +76,7 @@
 
 
 .overlay {
+
     height: 100%;
     width: 0;
     position: fixed;
@@ -179,9 +180,41 @@ white-space: nowrap;
     left: 20px;
 
     width: 250px;
-
- 
 }
+
+/*animation*/
+.mta {
+  background-image: url(../images/mta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 180px;
+}
+.gza{
+  background-image: url(../images/gza.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 2px;
+}
+.trees {
+
+  bottom: 0px;
+}
+.trees img {
+  width: 70%;
+
+}
+.bus {
+  right: 0;
+  bottom: -169px;
+}
+.bus{
+  width: 35%
+}
+/*animation*/
+
+
 .container h1 {
    font-weight: 400;
      letter-spacing:8px;
@@ -228,6 +261,24 @@ white-space: nowrap;
   width: 240px;
 
 }
+.map-container {
+  width: 95%;
+ margin:0 auto;
+}
+
+.padding {
+  padding:35px;
+}
+.nowrap {
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
 
 
 
