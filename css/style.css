@@ -210,7 +210,13 @@ white-space: nowrap;
   bottom: -169px;
 }
 .bus{
-  width: 35%
+  width: 25%;
+  -webkit-animation: mymove 5s infinite;
+   animation: mymove 5s infinite;
+}
+@keyframes mymove {
+   from { right: 0; }
+  to   { right:1920px; }
 }
 /*animation*/
 
