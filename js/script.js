@@ -41,12 +41,10 @@ $(function(){
 //   });
 // });
 
+ $(document).ready(function(){
+  $('#nav-icon1').click(function(){
             $("#red").css("z-index","3");
- // $(document).ready(function(){
- //  $('#nav-icon1').click(function(){
- //            $("#red").css("z-index","3");
-            
- //      });
- //        });
+      });
+        });
 
 
