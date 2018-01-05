@@ -35,17 +35,18 @@ $(function(){
 
         });
 
-// // $(document).ready(function(){
-// //   $('#nav-icon1').click(function(){
-// //     $('#white').toggleClass('auto1');
-// //  // $(document).ready(function(){
-//  //  $('#nav-icon1').click(function(){
-//  //            $("#red").css("z-index","3");
-            
-//  //      });
-//  //        });
-
-
+// $(document).ready(function(){
+//   $('#nav-icon1').click(function(){
+//     $('#white').toggleClass('auto1');
 //   });
-// // });
+// });
+
+            $("#red").css("z-index","3");
+ // $(document).ready(function(){
+ //  $('#nav-icon1').click(function(){
+ //            $("#red").css("z-index","3");
+            
+ //      });
+ //        });
+
 
