@@ -5,13 +5,6 @@ $(document).ready(function(){
 });
 
 
-// function openNav() {
-//     document.getElementById("myNav").style.width = "100%";
-// }
-
-// function closeNav() {
-//     document.getElementById("myNav").style.width = "0%";
-// }
 
 $(function(){
 
@@ -44,6 +37,8 @@ $(function(){
  $(document).ready(function(){
   $('#nav-icon1').click(function(){
             $("#red").css("z-index","3");
+      
+
       });
         });
 
