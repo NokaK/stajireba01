@@ -4,8 +4,6 @@ $(document).ready(function(){
 	});
 });
 
-
-
 $(function(){
 
         $('#nav-icon1').click(function() {
@@ -20,26 +18,32 @@ $(function(){
 
     function openNav() {
         document.getElementById("myNav").style.width = "100%";
+           $('#white').hide();
+           $('#red').show();
+
     }
 
     function closeNav() {
         document.getElementById("myNav").style.width = "0%";
+         $('#white').show();
+         $('#red').hide();
     }
 
         });
 
-// $(document).ready(function(){
-//   $('#nav-icon1').click(function(){
-//     $('#white').toggleClass('auto1');
-//   });
-// });
 
- $(document).ready(function(){
-  $('#nav-icon1').click(function(){
-            $("#red").css("z-index","3");
-      
-
-      });
-        });
-
-
+$("#homeLink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#home").offset().top
+    }, 500);
+});
+$("#servicesLink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#services").offset().top
+    }, 500);
+});
+$("#contactLink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 500);
+});

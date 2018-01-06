@@ -8,7 +8,7 @@
 #nav-icon1 {
   width: 60px;
   height: 45px;
-  position: relative;
+  position: fixed;
   margin: 10px 10px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -24,8 +24,8 @@
 #nav-icon1 span {
   display: block;
   position: absolute;
-  height: 8px;
-  width: 100%;
+  height: 5px;
+  width: 70%;
   background: #fff;
   opacity: 1;
   left: 0;
@@ -44,11 +44,13 @@
 }
 
 #nav-icon1 span:nth-child(2) {
-  top: 18px;
+  top: 15px;
+  width: 55%;
+  margin-left: 8.5px;
 }
 
 #nav-icon1 span:nth-child(3) {
-  top: 36px;
+  top: 30px;
 }
 
 #nav-icon1.open span:nth-child(1) {
@@ -76,10 +78,9 @@
 
 
 .overlay {
-
+  position: fixed;
     height: 100%;
     width: 0;
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -156,8 +157,8 @@
  
  .date {
   position: absolute;
-  right: 45px;
-  bottom:200px; 
+  right: 2%;
+  bottom:20%; 
   color: #fff;
 
  }
@@ -168,19 +169,12 @@ color: #fff;
 white-space: nowrap;
 }
 
-.auto {
-  top:20px;
-  left: 20px;
-    z-index: 2;
-    width: 250px;
+.logo {
+   z-index: 2;
+    width: 20%;
+    position: absolute;
 }
 
-.auto1 {
-    top:20px;
-    left: 20px;
-
-    width: 250px;
-}
 
 /*animation*/
 .mta {
@@ -198,21 +192,20 @@ white-space: nowrap;
   height: 2px;
 }
 .trees {
-
+  left: 15%;
   bottom: 0px;
 }
 .trees img {
-  width: 70%;
-
+  width: 80%;
 }
 .bus {
   right: 0;
-  bottom: -169px;
+  bottom: -160px;
 }
 .bus{
   width: 25%;
-  -webkit-animation: mymove 5s infinite;
-   animation: mymove 5s infinite;
+  -webkit-animation: mymove 8s infinite;
+   animation: mymove 8s infinite;
 }
 @keyframes mymove {
    from { right: 0; }
@@ -228,15 +221,16 @@ white-space: nowrap;
 }
 .common {
   background-color: #EBE8DE;
-  padding: 15%;
+  
 }
 .common h1 {
   margin-top: 70px!important;
-  background-color: #EA9DB3;
+
+
 
 }
 .common  img {
-  width: 100%;
+  width: 50%;
   max-width: 135px;
 }
 .left-side {
@@ -246,9 +240,6 @@ white-space: nowrap;
 .right-side {
   background-color: #ffffff;
 }
-/*.pink {
-   background-color: #EA9DB3;
-}*/
 .social {
   margin-top: 173px;
 
@@ -263,6 +254,10 @@ white-space: nowrap;
   margin-right: 10px;
 
 }
+.form {
+  top:45%;
+  left:12%;
+}
 .form-class {
   width: 240px;
 
@@ -272,27 +267,108 @@ white-space: nowrap;
  margin:0 auto;
 }
 
-.padding {
-  padding:35px;
+
+.form-container {
+  width: 60%;
 }
+
 .nowrap {
   white-space: nowrap;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.checkbox{
+  margin-top: 55px;
+}
+.foot {
+  margin-top: 180px;
+}
+.btn1 {
+  margin-left: 90%;
+  border-radius: 0px;
+}
 
 
 /*media */
+
+@media screen and (max-width: 1359px){
+  .bus{
+   bottom:-130px;
+  }
+  .form {
+    left:5%;
+    top:55%;
+  }
+  .contact-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+}
+@media screen and (max-width: 1149px){
+  .bus{
+   bottom:-120px;
+  }
+  .foot {
+    margin-top: 200px;
+  }
+
+}
+@media screen and (max-width: 1024px){
+  .date h1  {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .date p {
+    font-size: 20px;
+  }
+  .common h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .bus {
+    bottom: -110px;
+  }
+  .left-side {
+    display: none;
+  }
+  .second{
+      
+      left:18%;
+      top:75%;
+  }
+  .right-side{
+    background-color: #EBE8DE;
+  }
+  .btn1 {
+    margin-left: 70%;
+  }
+}
+@media screen and (max-width: 900px){
+  .bus{
+   bottom:-100px;
+  }
+}
+@media screen and (max-width: 780px){
+  .bus{
+   bottom:-90px;
+  }
+  .foot {
+    margin-top: 470px;
+
+  }
+  }
+@media screen and (max-width: 670px){
+  .anim {
+    display: none;
+  }
+  .common h1 {
+
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .btn1{
+   margin:15px  0;
+  }
+}
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
