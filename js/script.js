@@ -39,9 +39,7 @@ $("#homeLink").click(function() {
     $('html, body').animate({
         scrollTop: $("#home").offset().top
     }, 500);
-
-     
-
+    $('#nav-icon1').click();
 });
 $("#servicesLink").click(function() {
     $('html, body').animate({
