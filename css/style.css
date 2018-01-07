@@ -24,7 +24,7 @@
 #nav-icon1 span {
   display: block;
   position: absolute;
-  height: 5px;
+  height: 6px;
   width: 70%;
   background: #fff;
   opacity: 1;
@@ -92,6 +92,7 @@
 }
 
 .overlay-content {
+
     position: relative;
     top: 25%;
     left: 25%;
@@ -106,6 +107,7 @@
     color: #000000;
     display: block;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -248,7 +250,6 @@ white-space: nowrap;
 
 .social-icons i{
   border: solid black 1px;
-  border-width: 0.5px;
   border-radius:50%;
   padding: 7px;
   margin-right: 10px;
