@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('#nav-icon1').click(function(){
+	$('#nav-icon1').click(function(){ 
 		$(this).toggleClass('open');
 	});
 });
@@ -39,17 +39,19 @@ $("#homeLink").click(function() {
     $('html, body').animate({
         scrollTop: $("#home").offset().top
     }, 500);
-    closeNav ();
+
+     
+
 });
 $("#servicesLink").click(function() {
     $('html, body').animate({
         scrollTop: $("#services").offset().top
     }, 500);
-    closeNav ();
+    $('#nav-icon1').click();
 });
 $("#contactLink").click(function() {
     $('html, body').animate({
         scrollTop: $("#contact").offset().top
     }, 500);
-    closeNav ();
+    $('#nav-icon1').click();
 });
